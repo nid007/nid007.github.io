@@ -33,6 +33,10 @@
 
     <!-- RSS 2.0 feed -->
     <link rel="alternate" type="application/rss+xml" href="/tags/hugo/index.xml" title="Hugo Bootstrap v4 Blog" />
+    <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     
 
     
@@ -58,13 +62,6 @@
 
     
     
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title" dir="auto"><a href="/" rel="home">Hugo Bootstrap v4 Blog</a></h1>
-        <p class="lead blog-description" dir="auto">A simple Hugo theme based on the Bootstrap v4 blog example.</p>
-      </div>
-    </header>
-    
     
 
     
@@ -81,8 +78,8 @@
 
 <article class="blog-post">
   <header>
-    <h2 class="blog-post-title" dir="auto"><a href="/content/post/hugoisforlovers/">Getting Started with Hugo</a></h2>
-    <p class="blog-post-meta"><time datetime="2014-04-02T00:00:00Z">Wed Apr 02, 2014</time> by Your Name in 
+    <h2 class="blog-post-title" dir="auto"><a href="/2014/04/getting-started-with-hugo/">Getting Started with Hugo</a></h2>
+    <p class="blog-post-meta"><time datetime="2014-04-02T00:00:00Z">2014-04-02</time> by Your Name in 
 <i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/development" rel="category tag">Development</a>, <a href="/categories/golang" rel="category tag">golang</a>
 
 
@@ -96,7 +93,7 @@ More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
  Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
-  <a href='/content/post/hugoisforlovers/'>Read more →</a>
+  <a href='/2014/04/getting-started-with-hugo/'>Read more →</a>
 </article> 
 
 
@@ -110,11 +107,6 @@ Follow the following steps:
 
         <aside class="col-sm-3 ml-auto blog-sidebar">
   
-  <section class="sidebar-module sidebar-module-inset">
-    <h4>About</h4>
-    <p dir="auto">A simple Hugo theme based on the <a href="http://v4-alpha.getbootstrap.com/examples/blog/">Bootstrap v4 blog example</a>.</p>
-  </section>
-  
 
   
         <section class="sidebar-module">
@@ -122,15 +114,15 @@ Follow the following steps:
     <ol class="list-unstyled">
 
 
-<li><a href="/content/post/creating-a-new-theme/">Creating a New Theme</a></li>
+<li><a href="/2014/09/creating-a-new-theme/">Creating a New Theme</a></li>
 
-<li><a href="/content/post/f5/">F5</a></li>
+<li><a href="/2014/09/f5/">F5</a></li>
 
-<li><a href="/content/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+<li><a href="/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
 
-<li><a href="/content/post/goisforlovers/">(Hu)go Template Primer</a></li>
+<li><a href="/2014/04/hugo-template-primer/">(Hu)go Template Primer</a></li>
 
-<li><a href="/content/post/hugoisforlovers/">Getting Started with Hugo</a></li>
+<li><a href="/2014/04/getting-started-with-hugo/">Getting Started with Hugo</a></li>
 
     </ol>
   </section>
@@ -160,7 +152,7 @@ Follow the following steps:
     <footer class="blog-footer">
       <p dir="auto">
       
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      Copyright &copy;
       
       </p>
       <p>
